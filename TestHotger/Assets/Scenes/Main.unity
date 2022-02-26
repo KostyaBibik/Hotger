@@ -964,13 +964,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 626962898852782841, guid: 81f0ae80f19ffe344830cceef1abb366, type: 3}
-  menuPanel: {fileID: 1757955973}
   walls: {fileID: 261982805}
-  gamePanel: {fileID: 868723818}
-  losePanel: {fileID: 712863303}
   buttonUp: {fileID: 973003906}
   countOfGames: {fileID: 145320843}
   timeLastGame: {fileID: 1675868645}
+  menuPanel: {fileID: 1757955973}
+  gamePanel: {fileID: 868723818}
+  losePanel: {fileID: 712863303}
 --- !u!1 &672806037
 GameObject:
   m_ObjectHideFlags: 0

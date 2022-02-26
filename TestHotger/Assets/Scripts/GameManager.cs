@@ -8,13 +8,15 @@ public class GameManager : MonoBehaviour
     private const string CountOfGamesKey = "CountOfGames";
     
     [SerializeField] private GameObject playerPrefab;
-    [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject walls;
-    [SerializeField] private GameObject gamePanel;
-    [SerializeField] private GameObject losePanel;
     [SerializeField] private ButtonUp buttonUp;
     [SerializeField] private Text countOfGames;
     [SerializeField] private Text timeLastGame;
+    
+    [Header("UI Panels")]
+    [SerializeField] private GameObject menuPanel;
+    [SerializeField] private GameObject gamePanel;
+    [SerializeField] private GameObject losePanel;
 
     private float _durationGame;
     private ObstacleSpawner _obstacleSpawner;
