@@ -44,7 +44,14 @@ public class ObstacleSpawner : MonoBehaviour
     public void DestroyAllObstacles()
     {
         StopCoroutine(nameof(SpawnObstacle));
-        PoolsManager.DespawnAll();
+
+        foreach (var obstacle in _obstacles)
+        {
+            if (obstacle.gameObject.activeSelf)
+            {
+                obstacle.gameObject.Despawn();
+            }
+        }
         _bonusSpeed = 0f;
     }
     

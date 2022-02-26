@@ -5,6 +5,7 @@ public class ParallaxWall : MonoBehaviour
     [SerializeField] private float speedParallax = 5f;
     [SerializeField] private float startX;
     [SerializeField] private float endX;
+    
     private float _startSpeed;
 
     private void Start()
